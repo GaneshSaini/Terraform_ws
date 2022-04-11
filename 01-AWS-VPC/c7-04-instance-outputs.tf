@@ -20,12 +20,7 @@ output  "bastion-public-ip" {
    description   =  "Private IP of the Instance"
    value         =   [ for instance in module.ec2-private: instance.private_ips]
 }
-*/
-output "key-pair" {
-   description  =  "Nothing"
-   value        =    aws_key_pair.MyKey.key_name
-}
-/*
+
 output "private-id" {
     description  =  "ID"
     value        =  module.ec2-private[*].id
