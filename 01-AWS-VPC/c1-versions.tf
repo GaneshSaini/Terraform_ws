@@ -10,7 +10,7 @@ terraform {
     }
 
     null = {
-      source = "hashicorp/null"
+      source = "hashicorp/null"       #for null provisioner
       version = "~> 3.0"
     }
   }
