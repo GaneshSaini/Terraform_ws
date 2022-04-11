@@ -10,7 +10,6 @@ resource "null_resource" "name" {
     user     =  "ec2-user"
     password = ""
     private_key  =  file("aws-key")
-    #private_key   =  "${file("MyKeyPair.pem")}"
     
   }
    
