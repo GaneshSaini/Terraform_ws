@@ -3,7 +3,7 @@
 variable "environment" {
   description = "Environment Variable used as a prefix"
   type = string
-  default = "dev"
+  default = "dev1"
 }
 # Business unit
 variable "business_unit" {
