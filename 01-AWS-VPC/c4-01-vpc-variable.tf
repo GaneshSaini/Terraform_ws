@@ -6,14 +6,6 @@ variable "aws_region" {
    type         =   string 
    default      =   "ap-south-1"
 }
-/*
-variable  "vpc_module_version"  {
-   description  =  "Version of the VPC Module"
-   type         =  float
-   default      =  3.14.0 
-}
-*/
-
 variable "vpc_name"  {
    description  =  "Name of the VPC"
    type         =   string
